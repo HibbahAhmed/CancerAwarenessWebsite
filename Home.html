@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Righteous|Ruda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|UnifrakturCook:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Inconsolata|Quicksand|UnifrakturCook:700" rel="stylesheet">
+    <link href="Assets2/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <style> 
+
+
+h1.the{
+   font-family: 'Acme', sans-serif;
+    font-size: 7em;
+    color: White;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    
+}
+h1.to{
+    font-family: 'Righteous';
+    font-size: 49px;
+    color: White;
+    letter-spacing: 10px;
+}
+h1.aa{
+     font-family: 'Acme', sans-serif;
+    font-size: 5em;
+     color: White;
+
+}
+h1{
+    line-height: 47px;
+
+}
+p.two{
+    font-family: 'Ruda';
+    font-size:26px;
+     color: black;
+    font-weight: bolder;
+}
+
+p.one{
+    text-align: center;
+    font-family: 'Handlee';
+    font-size: 24px;
+    border-width: 10px;
+     color: White;
+     border-style:solid;
+    border-color:black;
+    padding: 1em;
+
+}
+
+body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 20px 50px 150px;
+  font-size: 13px;
+  text-align: center;
+  background: rgb(169,3,41);
+background: -moz-linear-gradient(top, rgba(169,3,41,1) 51%, rgba(143,2,34,1) 6%, rgba(109,0,25,1) 60%);
+background: -webkit-linear-gradient(top, rgba(169,3,41,1) 51%,rgba(143,2,34,1) 6%,rgba(109,0,25,1) 60%);
+background: linear-gradient(to bottom, rgba(169,3,41,1) 51%,rgba(143,2,34,1) 6%,rgba(109,0,25,1) 60%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
+}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+ul li {
+  font: bold 12px Handlee;
+  color: white;
+
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 14px 1.56em;
+  background:black;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #555;
+  color: darkred;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+  color:darkred;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { 
+    background: #666; 
+    }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+i.class{
+   border-style:solid;
+    border-color:black;
+    padding: 1em;
+    border-width:8px;
+}
+.home2{
+  font-size: 20px;
+  }
+.about1{
+  font-size: 20px;
+}
+.cont{
+  font-size: 20px;
+}
+.supp{
+  font-size: 20px;
+}
+.hm{
+  font-size: 20px;
+}
+.help{
+  font-size: 20px;
+}
+.don{
+  font-size: 20px;
+}
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+footer-social-icons {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+
+.social-icon {
+    color: #fff;
+  
+ 
+}
+ul.social-icons {
+    margin-top: 8px;
+    float:right;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline-block;
+    height: 33px;
+ 
+
+    
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+      float:right;
+}
+.fa-facebook {
+    padding:12px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:12px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-youtube {
+    padding:12px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:12px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+/*div{
+    background-color: black;
+}*/
+#box1 {
+width:260px;
+float: left;
+height: 290px;
+background-color:black;
+margin: 24px;
+}
+#box2 {
+width:260px;
+float: left;
+height: 290px;
+background-color:black;
+margin: 24px;
+}
+#box3 {
+width:260px;
+float: left;
+height: 290px;
+background-color:black;
+margin: 24px;
+}
+#box4 {
+width:260px;
+float: left;
+height: 290px;
+background-color:black;
+margin: 24px;
+}
+.imag{
+    width:80%;
+    height:200px;
+}
+#box1:hover{
+    background-color: #322f30;
+}
+#box2:hover{
+    background-color: #322f30;
+}
+#box3:hover{
+    background-color: #322f30;
+}
+#box4:hover{
+    background-color: #322f30;
+}
+.color{
+    color:white;
+    font-family: 'Inconsolata', monospace;
+    font-size:16px;
+    
+}
+.hy{
+    float: left;
+}
+.signin{
+    width:75px;
+    height:35px;
+    float:left;
+    border:#000;
+    border-radius: 50px;
+}
+button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    border: 1px solid black;
+    float: left;
+    width:165px;
+    height:35px;
+    font-size: 14px;
+
+    background-color: black;
+}
+button:hover{
+    background-color:  grey;
+}
+.Cancer{
+    height:400px;
+}
+     </style>
+</head>
+<body>
+ 
+    <button><a href="E:\Hiba\CMAD\Cancer\Sign.html">Make a Donation</a></button>
+    <div class="footer-social-icons">
+    <ul class="social-icons">
+    
+        <li class="set"><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        <li class="set"><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+        <li class="set"><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+        <li class="set"><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+    
+    </ul>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+
+    <h1 class="to"> THE </h1>               
+    <h1 class="the"> CANCER </h1>
+        <h1 class="to"> AWARENESS</h1>
+  <p class="two">You are strong enough to fight.</p>
+<br/>
+
+
+<!-- Navigation -->
+<ul>
+
+    <li class="fa fa-home home2" aria-hidden="true"> HOME
+    </li>
+
+
+  <li class="fa fa-question-circle about1" aria-hidden="true">
+      <a href="AboutUs.html" target="_blank "> ABOUT US</li>
+  <li class="fa fa-handshake-o supp" aria-hidden="true">
+    SUPPORT
+    <ul>
+      <li><a href="BreastCancer.html" target="_blank ">BREAST CANCER<a></li>
+      <li><a href="LungsCancer.html" target="_blank ">LUNGS CANCER</li>
+      <li><a href="SkinCancer.html" target="_blank ">SKIN CANCER</li>
+    </ul>
+  </li>
+  <li class="fa fa-thumbs-up hm" aria-hidden="true">REMEDIES
+   <ul>
+      <li><a href="RemediesForBC.html" target="_blank ">REMEDIES FOR BREAST CANCER<a></li>
+      <li><a href="RemediesForLC.html" target="_blank ">REMEDIES FOR LUNGS CANCER</li>
+      <li><a href="RemediesForSK.html" target="_blank ">REMEDIES FOR SKIN CANCER</li>
+    </ul>
+    </li>
+  <li class="fa fa-camera help" aria-hidden="true">HELP!
+       <ul>
+      <li><a href="BCVideos.html" target="_blank ">BREAST CANCER<a></li>
+      <li><a href="LCVideos.html" target="_blank ">LUNGS CANCER</li>
+      <li><a href="SKVideos.html" target="_blank ">SKIN CANCER</li>
+    </ul>
+  </li>
+   <li class="fa fa-heartbeat don" aria-hidden="true"><a href="DonationForm.html" target="_blank"> DONATION</li></a>
+   <li class="fa fa-envelope-open cont" aria-hidden="true"><a href="ContactUs.html" target="_blank "> CONTACT US</li>
+</ul>
+
+</br>
+</br>
+</br>
+</br>
+
+   <!-- Slide Show -->
+<section>
+   </br>
+   <center>
+  <img class=" Cancer" src="Images\18302402_718010398378811_1513032975_n.jpg" style="width:70%"  >
+  <img class=" Cancer" src="Images\images (13).jpg" style="width:70%" >
+  <img class=" Cancer" src="Images\CoverPhotoCancer.png" style="width:70%" >
+  <img class=" Cancer" src="Images\cancer-pixabay_large.jpg" style="width:70%" >
+  <img class=" Cancer" src="Images\images.png" style="width:70%" >
+  <center>
+
+
+</br>
+</br>
+</br>
+</section> 
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("Cancer");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+</br>
+
+</br>
+</hr>
+
+<center>
+  <p class="one">
+Cancer awareness is an effort to raise awareness and reduce the stigma of  Cancer through education on symptoms and treatment.Supporters hope that greater knowledge will lead to earlier detection of  cancer, which is associated with higher long-term survival rates, and that money raised for  cancer will produce a reliable, permanent cure.
+</p>
+</center>
+
+</hr>
+</br>
+</br>
+</section> 
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("Cancer");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+</br>
+</br>
+<h1 class="aa"> News About Cancer </h1>
+<br/>
+<br/>
+
+
+
+
+<div id="box1">
+    <br/><br/>
+<img src="Images/images1.jpg" class="imag"><a href="https://www.sciencedaily.com/releases/2017/04/170418160032.htm" target="_blank" class="color"><p>Bacteriophages, natural drugs to combat superbugs...</p></a> </img>
+
+</div>
+<div id="box2"> <br/><br/>
+    <img src="Images\images (7).jpg" class="imag"><a href="https://www.sciencedaily.com/releases/2017/04/170419130352.htm" target="_blank" class="color"><p>Amino acids in diet could be key to starving...</p></a> </img>
+</div>
+<div id="box2"> <br/><br/>
+    <img src="Images\the_spirit_of_hope_black_text_poster-r4f5bd676e2944d4db9f0532ab0fa1821_w2q_8byvr_324.jpg" class="imag"><a href="https://www.sciencedaily.com/releases/2017/04/170424110841.htm" target="_blank" class="color" align="center"><p>Nanoparticle vaccine shows potential as immunotherapy...</p></a> </img>
+</div>
+<div id="box2"><br/><br/>
+    <img src="images/image18.jpg" class="imag"><a href="https://www.sciencedaily.com/releases/2017/04/170413141053.htm" target="_blank" class="color" align="center" ><p>New CRISPR-based diagnostic platform unveiled...</p></a> </img>
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</body>
+</html>

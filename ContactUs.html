@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Righteous|Ruda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|UnifrakturCook:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Inconsolata|Quicksand|UnifrakturCook:700" rel="stylesheet">
+    <link href="Assets2/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Merriweather" rel="stylesheet">
+
+
+
+<style>
+.on{
+    background-color: dodgerblue;
+    
+    height: 640px;
+    width: 340px;
+      background-image: url("E:\Hiba\CMAD\Cancer\Images\531000696.jpg");
+      float: left;
+}
+.tw{
+    background-color:whitesmoke;
+     width: 510px;
+     height: 640px;
+    float:left;
+}
+/*.zero{
+   position: absolute;
+ 
+}*/
+.labels{
+
+    padding: 15px 16px;
+    font-size:17px;
+    margin-right:20px;
+    line-height: 20px;
+    font-family: 'Francois One', sans-serif;
+    color: dodgerblue;
+    text-align: left;
+    
+}
+
+input[type=submit] {
+    width: 35%;
+    background-color:black;
+    color: white;
+    padding: 8px 10px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:auto;
+   margin-right:auto;
+   display:block;
+margin-top:2%;
+   margin-bottom:0%;
+   font-size:14px;
+}
+input[type=text] , select {
+    width: 55%;
+    padding: 8px 10px;
+    margin: 6px 0 0 128px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    display:block;
+}
+input[type=submit]:hover {
+    background-color: orangered;
+}
+.textbox { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(255, 255, 255, 0.44); 
+    color: #333; 
+    border: 1px solid #A4A4A4; 
+    padding: 4px 8px 4px 4px !important;
+    line-height: 1; 
+    width: 275px; 
+    height:25px; 
+  } 
+ .textbox:focus { 
+    border: 1px solid #4d90fe; 
+    outline: none; 
+    box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3);  
+    -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.3); 
+    background: rgb(255, 255, 255);
+  } 
+  h1.thee{
+   font-family: 'Acme', sans-serif;
+    font-size: 3em;
+    color: White;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    
+}
+p.too{
+    font-family: 'Righteous';
+    font-size: 20px;
+    color: White;
+    letter-spacing: 10px;
+}
+h1{
+    line-height: 12px;
+}
+.zero{
+    margin: 182px;
+}
+
+h1.the{
+   font-family: 'Acme', sans-serif;
+    font-size: 7em;
+    color: White;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    
+}
+h1.to{
+    font-family: 'Righteous';
+    font-size: 49px;
+    color: White;
+    letter-spacing: 10px;
+}
+h1.aa{
+     font-family: 'Acme', sans-serif;
+    font-size: 5em;
+     color: White;
+
+}
+h1{
+    line-height: 47px;
+
+}
+p.two{
+    font-family: 'Ruda';
+    font-size:26px;
+     color: black;
+    font-weight: bolder;
+}
+
+p.one{
+    text-align: center;
+    font-family: 'Handlee';
+    font-size: 24px;
+    border-width: 10px;
+     color: White;
+     border-style:solid;
+    border-color:black;
+    padding: 1em;
+
+}
+
+body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 20px 50px 150px;
+  font-size: 13px;
+  text-align: center;
+  background: rgb(169,3,41);
+background: -moz-linear-gradient(top, rgba(169,3,41,1) 51%, rgba(143,2,34,1) 6%, rgba(109,0,25,1) 60%);
+background: -webkit-linear-gradient(top, rgba(169,3,41,1) 51%,rgba(143,2,34,1) 6%,rgba(109,0,25,1) 60%);
+background: linear-gradient(to bottom, rgba(169,3,41,1) 51%,rgba(143,2,34,1) 6%,rgba(109,0,25,1) 60%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
+}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+ul li {
+  font: bold 12px Handlee;
+  color: white;
+
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 14px 1.56em;
+  background:black;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #555;
+  color: darkred;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+  color:darkred;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { 
+    background: #666; 
+    }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+i.class{
+   border-style:solid;
+    border-color:black;
+    padding: 1em;
+    border-width:8px;
+}
+.home2{
+  font-size: 20px;
+  }
+.about1{
+  font-size: 20px;
+}
+.cont{
+  font-size: 20px;
+}
+.supp{
+  font-size: 20px;
+}
+.hm{
+  font-size: 20px;
+}
+.help{
+  font-size: 20px;
+}
+.don{
+  font-size: 20px;
+}
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+footer-social-icons {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+
+.social-icon {
+    color: #fff;
+  
+ 
+}
+ul.social-icons {
+    margin-top: 8px;
+    float:right;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline-block;
+    height: 33px;
+ 
+
+    
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+      float:right;
+}
+.fa-facebook {
+    padding:12px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:12px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-youtube {
+    padding:12px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:12px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+/*div{
+    background-color: black;
+}*/
+#box1 {
+width:260px;
+float: left;
+height: 290px;
+background-color:black;
+margin: 24px;
+}
+#box2 {
+width:260px;
+float: left;
+height: 290px;
+background-color:black;
+margin: 24px;
+}
+#box3 {
+width:260px;
+float: left;
+height: 290px;
+background-color:black;
+margin: 24px;
+}
+#box4 {
+width:260px;
+float: left;
+height: 290px;
+background-color:black;
+margin: 24px;
+}
+.imag{
+    width:80%;
+    height:200px;
+}
+#box1:hover{
+    background-color: #322f30;
+}
+#box2:hover{
+    background-color: #322f30;
+}
+#box3:hover{
+    background-color: #322f30;
+}
+#box4:hover{
+    background-color: #322f30;
+}
+.color{
+    color:white;
+    font-family: 'Inconsolata', monospace;
+    font-size:16px;
+    
+}
+.hy{
+    float: left;
+}
+.te{
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size:12px;
+}
+.pp{
+    color: dodgerblue;
+    font-family: 'Merriweather', serif;
+    font-size:22px;
+}
+p.qq{
+    font-family: 'Droid Sans', sans-serif;
+    color: dimgray;
+    font-size: 18px;
+    line-height: 12px;
+}
+.Cancer{
+    height:400px;
+}
+</style>
+
+
+</head>
+<body>
+    <br/>
+
+
+    <h1 class="to"> THE </h1>               
+    <h1 class="the"> CANCER </h1>
+        <h1 class="to"> AWARENESS</h1>
+  <p class="two">You are strong enough to fight.</p>
+<br/>
+
+
+<!-- Navigation -->
+<ul>
+
+    <li class="fa fa-home home2" aria-hidden="true"> HOME
+    </li>
+
+
+  <li class="fa fa-question-circle about1" aria-hidden="true">
+      <a href="AboutUs.html" target="_blank "> ABOUT US</li>
+  <li class="fa fa-handshake-o supp" aria-hidden="true">
+    SUPPORT
+    <ul>
+      <li><a href="BreastCancer.html" target="_blank ">BREAST CANCER<a></li>
+      <li><a href="LungsCancer.html" target="_blank ">LUNGS CANCER</li>
+      <li><a href="SkinCancer.html" target="_blank ">SKIN CANCER</li>
+    </ul>
+  </li>
+  <li class="fa fa-thumbs-up hm" aria-hidden="true">REMEDIES
+   <ul>
+      <li><a href="RemediesForBC.html" target="_blank ">REMEDIES FOR BREAST CANCER<a></li>
+      <li><a href="RemediesForLC.html" target="_blank ">REMEDIES FOR LUNGS CANCER</li>
+      <li><a href="RemediesForSK.html" target="_blank ">REMEDIES FOR SKIN CANCER</li>
+    </ul>
+    </li>
+  <li class="fa fa-camera help" aria-hidden="true">HELP!
+       <ul>
+      <li><a href="BCVideos.html" target="_blank ">BREAST CANCER<a></li>
+      <li><a href="LCVideos.html" target="_blank ">LUNGS CANCER</li>
+      <li><a href="SKVideos.html" target="_blank ">SKIN CANCER</li>
+    </ul>
+  </li>
+   <li class="fa fa-heartbeat don" aria-hidden="true"><a href="DonationForm.html" target="_blank"> DONATION</li></a>
+   <li class="fa fa-envelope-open cont" aria-hidden="true"><a href="ContactUs.html" target="_blank "> CONTACT US</li>
+</ul>
+
+</br>
+</br>
+</br>
+</br>
+
+<!-- Slide Show -->
+<section>
+   </br>
+   <center>
+  <img class=" Cancer" src="Images\contact-banner.jpg" style="width:70%" >
+  <img class=" Cancer" src="Images\contact-banner (1).jpg" style="width:70%" >
+  <img class=" Cancer" src="Images\contact-banner1.jpg" style="width:70%" >
+  <img class=" Cancer" src="Images\download (2).jpg" style="width:70%" > 
+  <img class=" Cancer" src="Images\banner-contact-us-section.jpg" style="width:70%" >
+  <center>
+
+</section> 
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("Cancer");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+
+    <div class="zero">
+    <div class="on">
+        <br/>
+        <br/>
+
+        <br/>
+
+                     
+    <h1 class="thee" align="center"> Contact Us </h1>
+        <p class="too" align="center">Where we are: </p>
+        <br/>
+        <<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.4801027972776!2d67.09062781458817!3d24.915709484027882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f32a0f2c3f3%3A0x4fc0a6fd386117f0!2sSir+Syed+University+of+Engineering+and+Technology!5e0!3m2!1sen!2s!4v1493472902930" width="300" height="370" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <br/>
+        <br/>
+        <p class="te">Sir Syed University Of Engineering and Technology,Karachi</p>
+
+        </div>
+
+
+      <div class="tw">
+          <form action="/action_page.php">
+  <br/>
+<br/>
+<br/>
+    <br/>
+
+  <label class="pp">Our Team Members Are:</label>
+    <p class="qq">User</p>
+    <p class="qq">User1</p>
+    <p class="qq">User2</p>
+    <br/>
+   
+    <label class="pp">You Can Mail Us On:</label>
+
+    <p class="qq">User@yahoo.com</p>
+    <p class="qq">User1@yahoo.com</p>
+    <p class="qq">User2@yahoo.com</p>
+    <br/>
+
+    <label class="pp" >You Can Contact On This Number:</label>
+    
+    <p class="qq">1234567890</p>
+    
+    <br/>
+
+    <label class="pp">Our Official Website Is:</label>
+    
+    <p class="qq">example.edu.pk</p>
+    <br/>
+
+</form>
+
+          </div>  
+
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/> 
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/> 
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>  
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/> 
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>     
+</body>
+</html>
